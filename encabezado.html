@@ -18,18 +18,13 @@
             margin-top: 20px; /* Espacio arriba */
             letter-spacing: 2px; /* Espaciado entre letras */
             font-weight: bold;
-            animation: parpadeo 1.5s infinite alternate; /* Animación de parpadeo */
+            animation: parpadeo 1s infinite; /* Animación de parpadeo */
         }
-        .blink {
-    animation: blink-animation 1s steps(5, start) infinite;
+  @keyframes parpadeo {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
 }
-
-        @keyframes parpadeo {
-            0% { opacity: 1; } /* Comienza visible */
-            50% { opacity: 0.4; } /* Se atenúa a un 40% */
-            100% { opacity: 1; } /* Vuelve a ser visible */
-        }
-
         h1 em {
             color: #2D4B3B; /* Color verde menta suave para el texto enfatizado */
         }
@@ -44,6 +39,6 @@
     </style>
 </head>
 <body>
-    <h1 class="blink" ><em><strong>El dengue</strong></em></h1>
+    <h1><em><strong>EL DENGUE</strong></em></h1>
 </body>
 </html>
