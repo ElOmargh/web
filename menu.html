@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+    <style type="text/css">
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #F4F7F6; /* Fondo claro */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: left ;
+            align-items: center;
+            height: 100vh;
+        }
+        .menu-container {
+            background-color: #1ABC9C; /* Color suave de fondo para el menú */
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 200px; /* Menú más compacto */
+        }
+        .menu-container h1 {
+            color: white;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+        .menu-container a {
+            display: block;
+            color: #FFFFFF;
+            font-size: 1em; /* Tamaño de fuente más pequeño */
+            text-decoration: none;
+            padding: 8px 15px;
+            margin: 8px 0;
+            border-radius: 8px;
+            background-color: #2980B9; /* Color de los botones */
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .menu-container a:hover {
+            background-color: #3498DB; /* Color de los botones en hover */
+            transform: scale(1.1); /* Efecto de escala al pasar el mouse */
+        }
+        footer {
+            position: absolute;
+            bottom: 20px;
+            color: #555;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu-container">
+        <h1>Menú</h1>
+        <a href="Que es.html" target="mainFrame">¿Qué es?</a>
+        <a href="Sintomas.html" target="mainFrame">Síntomas</a>
+        <a href="Tratamiento.html" target="mainFrame">Tratamiento</a>
+        <a href="Prevencion.html" target="mainFrame">Prevención</a>
+        <a href="introduccion.html" target="mainFrame">Regresar</a>
+    </div>
+</body>
+</html>
