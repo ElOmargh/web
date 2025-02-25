@@ -20,6 +20,9 @@
             font-weight: bold;
             animation: parpadeo 1.5s infinite alternate; /* Animación de parpadeo */
         }
+        .blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+}
 
         @keyframes parpadeo {
             0% { opacity: 1; } /* Comienza visible */
@@ -41,6 +44,6 @@
     </style>
 </head>
 <body>
-    <h1><em><strong>El dengue</strong></em></h1>
+    <h1 class="blink" ><em><strong>El dengue</strong></em></h1>
 </body>
 </html>
